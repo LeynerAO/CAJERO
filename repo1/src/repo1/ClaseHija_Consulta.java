@@ -12,9 +12,16 @@ package repo1;
 public class ClaseHija_Consulta extends ClasePadre_Abstracta {
     
     public void Transacciones(){
-        System.out.println("------------------------------------");
+        try {
+          System.out.println("------------------------------------");
         System.out.println("Tu saldo actual es:" + getSaldo());
-        System.out.println("------------------------------------");
+        System.out.println("------------------------------------");  
+        } catch (Exception e) {
+           System.out.println("El error encontrado es:" + e); 
+        }
+           finally{
+        System.out.println("Operacion realizada con exito" );
+        }
     }
     
     
