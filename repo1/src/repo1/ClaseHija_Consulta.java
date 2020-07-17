@@ -17,7 +17,7 @@ public class ClaseHija_Consulta extends ClasePadre_Abstracta {
         System.out.println("Tu saldo actual es:" + getSaldo());
         System.out.println("------------------------------------");  
         } catch (Exception e) {
-           System.out.println("El error encontrado es:" + e); 
+            System.out.println("El error encontrado es:" + e);
         }
            finally{
         System.out.println("Operacion realizada con exito" );
